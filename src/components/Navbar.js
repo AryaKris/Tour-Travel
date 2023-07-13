@@ -1,20 +1,11 @@
 import React from "react";
 
-export default function Navbar(){
-return(
-    <nav>
-        <img src="../images/logo.png" alt ="logo" />
-        <div className="nav-elements">
-            <ul>
-                <li>Home</li>
-                <li>Destinations</li>
-                <li>About</li>
-                <li>Partner</li>
-            </ul>
+export default function Navbar({ title, address }) {
+    return (
+        <div className="mx-6 lg:mx-6 hover:text-amber-600">
+            <a className = "" href='/'>
+                <p className='hidden sm:inline my-2 text-sm text-gray-400 hover:text-amber-600'></p>{title}
+            </a>
         </div>
-        
-      
-    </nav>
-)
-
+    )
 }

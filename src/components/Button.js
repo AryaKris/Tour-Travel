@@ -1,10 +1,11 @@
 import React from "react";
 
-export default function Button(){
+export default function Button({text,style}){
     return(
         <div>
-        <button>Login</button>
-        <button>Register</button>
+            <button className="">{text}</button>
+
         </div>
+       
     )
 }

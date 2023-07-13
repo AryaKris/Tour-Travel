@@ -1,17 +1,16 @@
 import React from "react"; 
-import "./style.css";
-
-
+import './App.css'
 import Navbar from "./components/Navbar"
 import Button from "./components/Button";
+import Header from "./components/Header";
 
 
 function App() {
   return (
     <div className="App">
 
-      <Navbar/>
-      <Button/>
+      <Header/>
+      
      
      
     </div>
