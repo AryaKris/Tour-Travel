@@ -9,20 +9,13 @@ const Header = () => {
                 <img src="../images/logo.png" alt="logo" />
             </div>
             <div className='flex items-center space-x-5' >
-                <Navbar title = 'Home' address ='/'/>
+                <Navbar title='Home' address='/' />
                 <Navbar title='Destinations' address='/' />
                 <Navbar title='About' address='/' />
                 <Navbar title='Partner' address='/' />
-
-                <Button text = 'Login'/>
-                <Button text='Register' />
-
-           
-
-
-
-
-
+                
+                <Button text='Login' styleName='font-bold text-amber-500  border-2 border-amber-500 py-2 px-6 rounded-lg mr-1' ></Button>
+                <Button text='Register' styleName='font-bold text-white bg-amber-500 py-2 px-6 rounded-lg mr-1'></Button>
             </div>
 
         </div>
