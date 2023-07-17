@@ -14,8 +14,8 @@ const Header = () => {
                 <Navbar title='About' address='/' />
                 <Navbar title='Partner' address='/' />
                 
-                <Button text='Login' styleName='font-bold text-amber-500  border-2 border-amber-500 py-2 px-6 rounded-lg mr-1' ></Button>
-                <Button text='Register' styleName='font-bold text-white bg-amber-500 py-2 px-6 rounded-lg mr-1'></Button>
+                <Button text='Login' styleName='font-inter text-amber-500  border-2 border-amber-500 py-2 px-6 rounded-lg mr-1' ></Button>
+                <Button text='Register' styleName='font-inter text-white bg-amber-500 py-2 px-6 rounded-lg mr-1'></Button>
             </div>
 
         </div>

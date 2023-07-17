@@ -1,5 +1,6 @@
 import React from 'react'
 import DropDown from './DropDown'
+import Button from './Button'
 
 const HolidayFinder = () => {
   return (
@@ -21,6 +22,7 @@ const HolidayFinder = () => {
               <div className="py-2 mx-2">
                   <DropDown text = 'Date' />
               </div>
+        <div> <Button text='Explore' styleName='font-inter text-white bg-amber-500 py-2 px-8 rounded-lg mr-3' /></div>
           </div>
     </div>
   )
