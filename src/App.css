@@ -24,6 +24,18 @@
   color: white;
 }
 
+.card {
+  width: 100px;
+  font-size: 12px;
+}
+
+.card--image {
+  width: 40%;
+  border-radius: 9px;
+}
+
+
+
 .App-link {
   color: #61dafb;
 }
