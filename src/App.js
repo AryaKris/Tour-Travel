@@ -30,7 +30,7 @@ function App() {
             <Body />
            </div>
            <div>
-            <Card/>
+            <Card img = "Raja ampat.png" />
            </div>
 
         </div>
