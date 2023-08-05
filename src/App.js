@@ -29,10 +29,9 @@ function App() {
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Body />
            </div>
-           <div>
-            <Card img = "Raja ampat.png" />
-           </div>
-
+          <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
+            <Card />
+          </div>
         </div>
       </div>
     </div >
