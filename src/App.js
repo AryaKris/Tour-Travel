@@ -10,12 +10,25 @@ import Card from "./components/Card";
 
 function App() {
 
-  // const cards = data.map(item =>{
-  //   return (
-  //     <Card
-  //     img = {item.coverImg}/>
-  //   )
-  // })
+  const images = [
+    {
+      id: 1,
+      coverImg: 'Raja ampat.png'
+    },
+    {
+      id: 2,
+      coverImg: 'Fanjingshan.png'
+    },
+    {
+      id: 3,
+      coverImg: 'Vevey.png'
+    },
+    {
+      id: 4,
+      coverImg: 'Skadar.png'
+    }
+  ]
+
 
   return (
     <div className="App">
@@ -28,9 +41,9 @@ function App() {
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Body />
-           </div>
+          </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
-            <Card />
+            <Card cardImages={images} />
           </div>
         </div>
       </div>
