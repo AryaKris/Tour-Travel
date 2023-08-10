@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Body from "./components/Body";
 import data from "./data";
 import Card from "./components/Card";
+import Guides from "./components/Guides";
 
 function App() {
   const images = [
@@ -41,6 +42,9 @@ function App() {
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Card cardImages={images} />
+          </div>
+          <div>
+            <Guides/>
           </div>
         </div>
       </div>
