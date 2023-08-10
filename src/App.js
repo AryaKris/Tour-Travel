@@ -1,30 +1,30 @@
-import React from "react";
-import "./App.css";
-import Header from "./components/Header";
-import HolidayFinder from "./components/HolidayFinder";
-import Hero from "./components/Hero";
-import Body from "./components/Body";
-import data from "./data";
-import Card from "./components/Card";
-import Guides from "./components/Guides";
+import React from 'react';
+import './App.css';
+import Header from './components/Header';
+import HolidayFinder from './components/HolidayFinder';
+import Hero from './components/Hero';
+import Body from './components/Body';
+import data from './data';
+import Card from './components/Card';
+import Guides from './components/Guides';
 
 function App() {
   const images = [
     {
       id: 1,
-      coverImg: "Raja ampat.png",
+      coverImg: 'Raja ampat.png',
     },
     {
       id: 2,
-      coverImg: "Fanjingshan.png",
+      coverImg: 'Fanjingshan.png',
     },
     {
       id: 3,
-      coverImg: "Vevey.png",
+      coverImg: 'Vevey.png',
     },
     {
       id: 4,
-      coverImg: "Skadar.png",
+      coverImg: 'Skadar.png',
     },
   ];
 
@@ -43,8 +43,8 @@ function App() {
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Card cardImages={images} />
           </div>
-          <div>
-            <Guides/>
+          <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
+            <Guides />
           </div>
         </div>
       </div>
