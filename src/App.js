@@ -8,6 +8,7 @@ import data from './data';
 import Card from './components/Card';
 import Guides from './components/Guides';
 import Testimonials from './components/Testimonials';
+import Stories from './components/Stories';
 
 function App() {
   const images = [
@@ -26,6 +27,24 @@ function App() {
     {
       id: 4,
       coverImg: 'Skadar.png',
+    },
+  ];
+  const stories = [
+    {
+      id: 1,
+      image: 'blog01.png',
+    },
+    {
+      id: 2,
+      image: 'blog02.png',
+    },
+    {
+      id: 3,
+      image: 'blog03.png',
+    },
+    {
+      id: 4,
+      image: 'blog04.png',
     },
   ];
 
@@ -47,8 +66,11 @@ function App() {
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Guides />
           </div>
-          <div className =  "flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
+          <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Testimonials />
+          </div>
+          <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
+            <Stories trendingStories={stories} />
           </div>
         </div>
       </div>
