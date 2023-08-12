@@ -7,6 +7,7 @@ import Body from './components/Body';
 import data from './data';
 import Card from './components/Card';
 import Guides from './components/Guides';
+import Testimonials from './components/Testimonials';
 
 function App() {
   const images = [
@@ -45,6 +46,9 @@ function App() {
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Guides />
+          </div>
+          <div className =  "flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
+            <Testimonials />
           </div>
         </div>
       </div>
