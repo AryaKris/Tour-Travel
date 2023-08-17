@@ -8,7 +8,7 @@ export default function Body() {
             <div class="row-span-2  ...">
                 <img src='../images/Thousand-02 1.png' alt="bodyimage" />
             </div>
-            <div className="..."></div>
+            <div className="space-between"></div>
             <div className='row-span-2 align-middle mt-10 py-10 ml-8'>
                 <h2 className='text-3xl text-left font-playfair font-bold'>A new way to explore the world</h2>
                 <p className='text-left py-4'>For decades travellers have reached for Lonely Planet books when looking to plan and execute their perfect
