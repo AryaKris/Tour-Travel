@@ -23,8 +23,6 @@ export default function Guides() {
         </p>
       </div>
 
-      <div className="..."></div>
-
       <div className="row-span-2  ...">
         <img src="../images/Thousand-03.png" alt="bodyimage" />
       </div>

@@ -9,45 +9,9 @@ import Guides from "./components/Guides";
 import Testimonials from "./components/Testimonials";
 import Stories from "./components/Stories";
 import Footer from "./components/Footer";
+import data from "./data/data.json";
 
 function App() {
-  const images = [
-    {
-      id: 1,
-      coverImg: "Raja ampat.png",
-    },
-    {
-      id: 2,
-      coverImg: "Fanjingshan.png",
-    },
-    {
-      id: 3,
-      coverImg: "Vevey.png",
-    },
-    {
-      id: 4,
-      coverImg: "Skadar.png",
-    },
-  ];
-  const stories = [
-    {
-      id: 1,
-      image: "blog01.png",
-    },
-    {
-      id: 2,
-      image: "blog02.png",
-    },
-    {
-      id: 3,
-      image: "blog03.png",
-    },
-    {
-      id: 4,
-      image: "blog04.png",
-    },
-  ];
-
   return (
     <div className="App">
       <Header />
@@ -61,7 +25,7 @@ function App() {
             <Body />
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
-            <Card cardImages={images} />
+            <Card cardImages={data.cardImages} />
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
             <Guides />
@@ -70,7 +34,7 @@ function App() {
             <Testimonials />
           </div>
           <div className="flex justify-between mx-2 max-w-6xl col-span-2 w-full py-10 ...">
-            <Stories trendingStories={stories} />
+            <Stories trendingStories={data.storyImages} />
           </div>
         </div>
       </div>
