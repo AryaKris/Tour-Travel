@@ -15,7 +15,6 @@ export default function Stories({ trendingStories }) {
             </h1>
           </div>
         </div>
-        {/* Whenever mapping objects, make sure to use the key attribute. */}
         {trendingStories.map((img, idx) => (
           <div className="trendingStories" key={idx}>
             <img src={`../images/${img.storyImg}`} alt="stories" />
