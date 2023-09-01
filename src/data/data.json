@@ -1,0 +1,38 @@
+{
+    "cardImages": [
+        {
+            "id":1,
+            "cardImg":"Raja ampat.png"
+        },
+        {
+            "id": 2,
+            "cardImg":"Fanjingshan.png"
+        },
+        {
+            "id":3,
+            "cardImg":"Vevey.png"
+        },
+        {
+            "id":4,
+            "cardImg":"Skadar.png"
+        }
+    ],
+    "storyImages": [
+        {
+            "id":1,
+            "storyImg":"blog01.png"
+        },
+        {
+            "id": 2,
+            "storyImg":"blog02.png"
+        },
+        {
+            "id":3,
+            "storyImg":"blog03.png"
+        },
+        {
+            "id":4,
+            "storyImg":"blog04.png"
+        }
+    ]
+}
